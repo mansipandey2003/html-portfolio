@@ -1,0 +1,18 @@
+body {
+    background-color :lavender;
+}
+hr {
+    background-color:white;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    border-color: black;
+    border-width: 5px;
+    width:5%;
+}
+h1 {
+    color: #CF4DCE;
+}
+h3 {
+    color: #CF4DCE;
+}

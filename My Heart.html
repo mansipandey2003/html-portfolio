@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My heart</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            max-width: 100vw;
+            background-color: bisque;
+            font-family: 'comic sans ms';
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #text
+        {
+            position: absolute;
+        }
+        h2{
+            font-size: 30px;
+        }
+        img,h2{
+            scale: 1;
+            animation: zoom 1s linear infinite;
+        }
+        
+        @keyframes zoom {
+            0%{
+                scale: 1;
+            }
+            40%
+            {
+                scale: 1;
+            }
+            50%{
+                scale: 1.1;
+            }
+            60%{
+                scale: 1;
+            }
+            70%{
+                scale: 1.04;
+            }
+            80%{
+                scale: 1.1;
+            }
+            90%
+            {
+                scale: 1;
+            }
+            100%{
+                scale: 1;
+            }
+        }
+        @media only screen and (max-width:412px) {
+            .container
+            {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            img{
+                height: 300px;
+                width: 300px;
+            }
+            h2{
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img id="image"src="heart.png" alt="I love you">
+        <div id="text">
+            <h2>
+                I love you Mansi 💜
+            </h2>
+        </div>
+
+    </div>
+</body>
+
+</html>
